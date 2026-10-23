@@ -1,5 +1,13 @@
 import Foundation
 
+public enum EmergencyHoldPolicy {
+    /// Releasing an active Screen Time restriction takes longer than ending
+    /// a wake task that has no active restriction.
+    public static func duration(hasActiveRestriction: Bool) -> TimeInterval {
+        hasActiveRestriction ? 30 : 3
+    }
+}
+
 public enum ScheduleCalculator {
     public static func dates(for alarm: AlarmDefinition, from start: Date, through end: Date,
                              calendar: Calendar = .current) -> [Date] {

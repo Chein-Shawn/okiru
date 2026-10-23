@@ -4,6 +4,10 @@ import XCTest
 final class CoreTests: XCTestCase {
     let epoch = Date(timeIntervalSince1970: 1_800_000_000)
     var calendar: Calendar { var c = Calendar(identifier: .gregorian); c.timeZone = TimeZone(secondsFromGMT: 0)!; return c }
+    func testEmergencyHoldIsLongerDuringActiveRestriction() {
+        XCTAssertEqual(EmergencyHoldPolicy.duration(hasActiveRestriction:false),3)
+        XCTAssertEqual(EmergencyHoldPolicy.duration(hasActiveRestriction:true),30)
+    }
     func event(_ offset: TimeInterval = 0) -> AlarmOccurrence {
         AlarmOccurrence(alarm: AlarmDefinition(createdAt: epoch.addingTimeInterval(-86400)), scheduledAt: epoch.addingTimeInterval(offset), calendar: calendar)
     }

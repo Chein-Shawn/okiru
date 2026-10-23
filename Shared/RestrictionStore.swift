@@ -58,6 +58,10 @@ enum SharedRestrictionStore {
     }
     static func read() throws -> SharedRestrictionState {
         let url = try location()
+        // The app-group policy does not exist on first launch. Coordinating a
+        // read of a missing item can fail before the accessor is invoked; that
+        // is a valid empty state, not a Screen Time storage error.
+        guard FileManager.default.fileExists(atPath:url.path) else { return .init() }
         var error: NSError?
         var result: Result<SharedRestrictionState,Error>?
         NSFileCoordinator().coordinate(readingItemAt:url,options:[],error:&error) { item in

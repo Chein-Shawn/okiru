@@ -264,13 +264,28 @@ struct EmergencyButton: View {
     @State private var pressing = false
     @State private var confirm = false
     @State private var reason = ""
+    private var hasActiveRestriction: Bool {
+        let now = Date()
+        return !model.activeWindows.isEmpty || model.occurrences.contains {
+            $0.alarm.restriction.enabled && RestrictionWindow(occurrence:$0).isActive(at:now)
+        }
+    }
+    private var holdDuration: Double { EmergencyHoldPolicy.duration(hasActiveRestriction:hasActiveRestriction) }
+    private var holdLabel: String {
+        let label = tr("emergency.hold")
+        // Every shipped locale uses either the digit 3 or 三 in this label.
+        // Keep the translated instruction in sync with the longer hold used
+        // whenever releasing an active Screen Time restriction.
+        return hasActiveRestriction
+            ? label.replacingOccurrences(of:"3",with:"30").replacingOccurrences(of:"三",with:"三十")
+            : label
+    }
     var body: some View {
-        Text(tr("emergency.hold")).font(.subheadline.bold()).frame(maxWidth:.infinity).padding()
+        Text(holdLabel).font(.subheadline.bold()).frame(maxWidth:.infinity).padding()
             .background(pressing ? Color.red.opacity(0.3) : Color.red.opacity(0.08),in:RoundedRectangle(cornerRadius:14))
             .foregroundStyle(.red)
-            .onLongPressGesture(minimumDuration:3,perform:{ confirm = true },onPressingChanged:{ pressing = $0 })
+            .onLongPressGesture(minimumDuration:holdDuration,perform:{ confirm = true },onPressingChanged:{ pressing = $0 })
             .accessibilityAddTraits(.isButton)
-            .accessibilityAction { confirm = true }
             .alert(tr("emergency.title"),isPresented:$confirm) {
                 TextField(tr("emergency.reason"),text:$reason)
                 Button(tr("cancel"),role:.cancel) {}
