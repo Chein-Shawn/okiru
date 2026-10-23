@@ -1,0 +1,161 @@
+Home
+Wekker
+Instellingen
+OK
+Sluiten
+Annuleren
+Bewaren
+Verwijderen
+Gereed
+Verlaten
+Let op
+Ingeschakeld
+Alles
+Volg systeem
+Elke dag
+Eenmalig
+Wekelijks
+Tijd
+Datum
+Periode
+Versie
+Je gegevens
+Ondersteuning
+Okiru proberen
+Luisteren
+Wekkergeluid
+Taal
+Privacy
+Schrijf een beoordeling
+iOS-compatibiliteit
+Open systeeminstellingen
+Beginnen
+Beweeg voor een nieuwe ochtend.
+Je volgende ochtend begint hier.
+Volgende wekker
+Geen wekker
+Op tijd behaald
+Succesreeks
+%d dagen
+%d / 10
+Statistieken
+De eerste geldige wekker per dag telt. De voltooiingstijd meet niet wanneer je uit bed komt. Dagen zonder wekker tellen niet mee. Een ontbrekende voltooiing bewijst niet dat de wekker echt heeft geklonken.
+Gemiddelde vertraging
+Voltooiingstijd
+Vertraging (minuten)
+Geschiedenis
+Alle wekkergebeurtenissen
+Nog geen gebeurtenissen
+Afgeronde registraties wissen
+Afgeronde registraties wissen? Actieve taken en beperkingen blijven bestaan.
+Okiru opnieuw instellen
+Wekkers annuleren, Okiru-beperkingen opheffen en geschiedenis wissen?
+Wekker toevoegen
+Wekker bewerken
+Naam van wekker
+Schema
+Tik op + voor je eerste ochtend.
+Geen wekkers
+Wekker verwijderen? Actieve beperkingen vereisen nog steeds taakvoltooiing of noodopheffing.
+Wakker-word-uitdaging
+Tien push-ups
+Je uitdaging is nog niet klaar
+Uitdaging starten
+Vijf minuten voorbij; je kunt de taak nog voltooien
+Een nieuwe dag wacht op je
+Verlaten voltooit de taak niet en heft beperkingen niet op.
+Camera-uitdaging proberen
+Dit is een oefening zonder invloed op geschiedenis of beperkingen.
+Gepland
+Bezig
+Op tijd voltooid
+Te laat voltooid
+Niet voltooid
+Noodopheffing
+Tien push-ups binnen vijf minuten behaald!
+Taak te laat voltooid. Beperkingen vóór hun eindtijd blijven gelden.
+Huidige uitdaging opgeheven. Toekomstige schema's blijven bestaan.
+Zet de telefoon stevig neer. Laat de voorcamera je hele lichaam schuin van voren en opzij zien. Helemaal zakken en omhoogkomen telt één keer.
+Lichaam herkend. Zak en kom volledig omhoog.
+Ga zo door
+Camera onderbroken. Keer terug naar Okiru om door te gaan.
+Extra herinneringen
+Werkelijk geplande herinneringen
+Laatste geplande herinnering
+Wegvegen voltooit de taak niet. In de app verschijnt elke vijf seconden een aanwijzing. Op de achtergrond zijn beperkte meldingen vooraf gepland tot maximaal drie uur na de oorspronkelijke wekker. Aantal en dekking hangen af van capaciteit; stiltemodus en Focus zijn van invloed.
+Beperkte capaciteit. Hierboven staan werkelijk aantal en laatste tijd. Hoofdwekkers krijgen voorrang; open Okiru om de dekking bij te werken.
+Tien push-ups wachten. Deze melding wegvegen voltooit de taak niet.
+Appbeperkingen
+Begintijd
+Vroegste vrijgavetijd
+Toegestane apps (%d)
+Appbeperkingen actief
+De vrijgavetijd EN voltooiing van de gekoppelde taak zijn vereist. Ook laat voltooien ontgrendelt. Overlappende beperkingen blijven onafhankelijk gelden. Je kunt toestemming intrekken in de systeeminstellingen.
+Kies alleen afzonderlijke apps, maximaal 50, zoals Spotify. Categorieën en websites zijn geen toegestane uitzonderingen.
+Open Okiru en voltooi de uitdaging. Beperkingen eindigen na de vrijgavetijd en taakvoltooiing. Noodopheffing is beschikbaar in Okiru.
+Houd 3 seconden vast: noodopheffing
+Huidige beperkingen opheffen?
+Reden (optioneel)
+Nu opheffen
+Heft nu actieve Okiru-beperkingen en wekaanwijzingen op. Telt niet als succes. Toekomstige schema's blijven bestaan.
+Toestemmingen
+Toegestaan
+Niet toegestaan
+Systeemwekkers
+Meldingen
+Camera
+Schermtijd
+Wekkers en herinneringen toestaan
+Schermtijd toestaan
+Okiru gebruikt de voorcamera om push-ups op dit apparaat te tellen. Er worden geen video's opgeslagen of geüpload.
+Okiru plant de wekkers die je maakt.
+Word wakker met tien push-ups.
+Voltooi binnen vijf minuten na je eerste dagelijkse wekker.
+Een melding wegvegen voltooit de uitdaging niet.
+Camerabeelden worden op je telefoon verwerkt. Geen video's worden opgeslagen of geüpload.
+Voel je je niet goed, werkt de camera niet of is er nood? Houd noodopheffing drie seconden vast en bevestig. Dit wordt apart van succes vastgelegd.
+Systeemwekker (iOS 26+). Extra meldingen blijven afhankelijk van meldings- en Focusinstellingen.
+Meldingsmodus (iOS 17/18). Stiltemodus, Focus en instellingen beïnvloeden geluid; doorlopend rinkelen is niet gegarandeerd.
+iOS 17/18 gebruikt lokale meldingen als hoofdwekker, zonder garantie om stiltemodus of Focus te doorbreken. Vanaf iOS 26 kan AlarmKit dit na toestemming, maar iOS biedt nog steeds stoppen aan. Extra herinneringen zijn op alle versies beperkt en lokaal, zonder alle mogelijkheden van AlarmKit. De camera werkt alleen wanneer Okiru open is. Schermtijdtoestemming kan worden ingetrokken. Geen garantie voor elke vijf seconden een achtergrondmelding of een onomzeilbare blokkade. Werkelijk aantal en laatste tijd staan bij Wekker.
+Feedback sturen
+Categorie
+Probleem
+Suggestie
+Anders
+Samenvatting (maximaal 160 tekens)
+Details (maximaal 4.000 tekens)
+Antwoordmail (optioneel)
+Feedback sturen
+Feedback ontvangen. Bedankt!
+Het formulier, optionele e-mail, app- en systeemversie en taal worden verstuurd. Geen beelden of wekkerhistorie. Bij mislukking blijft het concept op je apparaat.
+De dienst is nog niet gepubliceerd. Je concept blijft op dit apparaat.
+Vul samenvatting en details binnen de tekenlimieten in.
+Wacht 20 seconden tussen inzendingen.
+De server bevestigde de ontvangst niet. Concept bewaard; probeer opnieuw.
+Beoordelen kan zodra Okiru in de App Store staat.
+Okiru vereist geen account en bevat geen advertenties of tracking. Wekkers, tellingen en geschiedenis blijven lokaal. Gewrichten worden op het apparaat herkend, zonder video's op te slaan of te uploaden. Appkeuze gebruikt ondoorzichtige Apple-tokens. Bij vrijwillige feedback gaan tekst, optionele e-mail, versies en taal naar de eigen Google Apps Script en Google Sheets van de ontwikkelaar, zonder beelden of wekkerhistorie. Afgeronde registraties kunnen worden gewist en Okiru kan worden hersteld. Toestemming intrekken verhindert de bijbehorende functie. Officiële privacy- en ondersteunings-URL's moeten vóór publicatie nog worden ingesteld.
+Testmelding over 5 seconden
+Test over vijf seconden gepland. Geen registratie in je wekkerhistorie.
+Test meldingen, niet AlarmKit-betrouwbaarheid op het vergrendelscherm. Nachtelijke tests op een echte iPhone zijn nodig.
+Gedeelde opslag niet beschikbaar. Een ondertekende apparaatbuild vereist een geregistreerde Okiru App Group.
+Gegevens konden niet worden gelezen of opgeslagen. Wijzigingen onbevestigd.
+Schermtijdtoestemming ontbreekt of is ingetrokken. Beperkingen onbevestigd.
+Een beperking moet minstens 15 minuten en minder dan 24 uur duren.
+Sta systeemwekkers toe voordat je deze inschakelt.
+Meldingen niet toegestaan. Extra herinneringen kunnen niet worden gepland. Controleer instellingen.
+Te weinig capaciteit voor hoofdwekkers. Verminder actieve schema's.
+Het systeem heeft niet alle meldingen behouden. Schema onbevestigd.
+Ongeldige tijd of weekdagen.
+Kies een toekomstige datum voor een eenmalige wekker.
+Schemaherstel vereist aandacht. Controleer toestemming en open Okiru opnieuw voordat je op wekkers vertrouwt.
+Sta de camera toe om push-ups te tellen.
+Voorcamera niet beschikbaar. Gebruik een echte iPhone of noodopheffing.
+Wekkergeluid kon niet worden geladen.
+Zonsopgang
+Heldere bellen
+Marimba
+Puls
+Baan
+Getij
+Stop
+De limiet voor systeemwekkers is bereikt. Okiru heeft oude schema’s verwijderd; probeer opnieuw op te slaan.

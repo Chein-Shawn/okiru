@@ -1,0 +1,161 @@
+Trang chủ
+Báo thức
+Cài đặt
+OK
+Đóng
+Hủy
+Lưu
+Xóa
+Xong
+Rời đi
+Lưu ý
+Bật
+Tất cả
+Theo hệ thống
+Hằng ngày
+Một lần
+Hằng tuần
+Giờ
+Ngày
+Khoảng thời gian
+Phiên bản
+Dữ liệu của bạn
+Hỗ trợ
+Thử Okiru
+Nghe thử
+Âm báo
+Ngôn ngữ
+Quyền riêng tư
+Viết đánh giá
+Tương thích iOS
+Mở cài đặt hệ thống
+Bắt đầu
+Vận động đón ngày mới.
+Buổi sáng tiếp theo bắt đầu tại đây.
+Báo thức tiếp theo
+Chưa đặt báo thức
+Tỷ lệ đúng giờ
+Chuỗi thành công
+%d ngày
+%d / 10
+Thống kê
+Tính theo báo thức hợp lệ đầu tiên mỗi ngày. Giờ hoàn thành không đo lúc rời giường. Loại trừ ngày không có báo thức. Không có kết quả không chứng minh báo thức đã thực sự reo.
+Độ trễ trung bình
+Giờ hoàn thành nhiệm vụ
+Độ trễ (phút)
+Lịch sử
+Tất cả bản ghi báo thức
+Chưa có bản ghi
+Xóa bản ghi đã kết thúc
+Xóa bản ghi đã kết thúc? Nhiệm vụ và hạn chế đang hoạt động vẫn được giữ.
+Đặt lại Okiru
+Hủy báo thức, gỡ hạn chế Okiru và xóa lịch sử?
+Thêm báo thức
+Sửa báo thức
+Tên báo thức
+Lịch
+Nhấn + để chuẩn bị buổi sáng đầu tiên.
+Chưa có báo thức
+Xóa báo thức? Hạn chế đang hoạt động vẫn yêu cầu hoàn thành nhiệm vụ hoặc gỡ khẩn cấp.
+Thử thách thức dậy
+Mười lần chống đẩy
+Thử thách chưa hoàn thành
+Bắt đầu thử thách
+Đã qua năm phút; bạn vẫn có thể hoàn thành
+Ngày mới đang chờ bạn
+Rời màn hình không hoàn thành nhiệm vụ hay gỡ hạn chế.
+Thử nhiệm vụ với camera
+Đây là luyện tập, không ảnh hưởng lịch sử hay hạn chế.
+Sắp tới
+Đang thực hiện
+Hoàn thành đúng giờ
+Hoàn thành muộn
+Chưa hoàn thành
+Gỡ khẩn cấp
+Hoàn thành mười lần trong năm phút!
+Hoàn thành muộn. Hạn chế chưa đến giờ kết thúc vẫn giữ nguyên.
+Đã gỡ thử thách hiện tại. Lịch tương lai vẫn giữ nguyên.
+Đặt điện thoại vững chắc. Camera trước cần thấy toàn thân từ góc chéo phía trước và bên hông. Hạ xuống rồi nâng lên hoàn toàn mới tính một lần.
+Đã nhận diện cơ thể. Hạ xuống và nâng lên hoàn toàn.
+Tiếp tục nhé
+Camera bị gián đoạn. Quay lại Okiru để tiếp tục.
+Nhắc nhở bổ sung
+Số nhắc nhở thực sự đã lên lịch
+Nhắc nhở đã lên lịch cuối cùng
+Vuốt bỏ thông báo không hoàn thành nhiệm vụ. Trong app có hướng dẫn mỗi năm giây. Ở nền, các thông báo giới hạn được lên lịch trước tối đa ba giờ sau báo thức gốc. Số lượng và phạm vi tùy dung lượng; chịu ảnh hưởng của im lặng và Tập trung.
+Dung lượng có hạn. Số thực tế và giờ cuối hiển thị ở trên. Ưu tiên báo thức chính; mở Okiru để cập nhật nhắc nhở.
+Mười lần chống đẩy đang chờ. Vuốt bỏ thông báo này không hoàn thành nhiệm vụ.
+Hạn chế ứng dụng
+Giờ bắt đầu
+Giờ gỡ sớm nhất
+Ứng dụng được phép (%d)
+Hạn chế ứng dụng đang hoạt động
+Cần đến giờ gỡ VÀ hoàn thành nhiệm vụ liên quan. Hoàn thành muộn vẫn có thể mở khóa. Các hạn chế chồng nhau độc lập. Có thể thu hồi quyền trong cài đặt hệ thống.
+Chỉ chọn từng ứng dụng, tối đa 50, như Spotify. Không dùng danh mục hoặc trang web làm ngoại lệ.
+Mở Okiru và hoàn thành thử thách. Hạn chế kết thúc sau giờ gỡ và khi nhiệm vụ hoàn thành. Có thể gỡ khẩn cấp trong Okiru.
+Giữ 3 giây: gỡ khẩn cấp
+Gỡ các hạn chế hiện tại?
+Lý do (không bắt buộc)
+Gỡ ngay
+Gỡ hạn chế và lời nhắc Okiru đang hoạt động. Không tính thành công. Giữ nguyên lịch tương lai.
+Quyền truy cập
+Đã cho phép
+Chưa cho phép
+Báo thức hệ thống
+Thông báo
+Camera
+Thời gian sử dụng
+Cho phép báo thức và nhắc nhở
+Cho phép Thời gian sử dụng
+Okiru dùng camera trước để đếm chống đẩy trên thiết bị. Không lưu hoặc tải video lên.
+Okiru lên lịch báo thức thức dậy do bạn tạo.
+Thức dậy với mười lần chống đẩy.
+Hoàn thành trong năm phút sau báo thức đầu tiên trong ngày.
+Vuốt bỏ thông báo không hoàn thành thử thách.
+Hình ảnh chỉ được xử lý trên điện thoại. Không lưu hoặc tải video lên.
+Nếu thấy không khỏe, camera lỗi hoặc có việc gấp, giữ gỡ khẩn cấp ba giây rồi xác nhận. Được ghi riêng, không tính thành công.
+Báo thức hệ thống (iOS 26+). Nhắc nhở bổ sung vẫn tùy cài đặt thông báo và Tập trung.
+Chế độ thông báo (iOS 17/18). Im lặng, Tập trung và cài đặt ảnh hưởng âm thanh; không bảo đảm reo liên tục.
+iOS 17/18 dùng thông báo cục bộ làm báo thức chính, không bảo đảm vượt qua im lặng hoặc Tập trung. iOS 26+ dùng AlarmKit, có thể vượt qua khi được phép nhưng hệ thống vẫn có nút dừng. Nhắc nhở bổ sung ở mọi phiên bản đều giới hạn và cục bộ, không kế thừa toàn bộ khả năng AlarmKit. Camera chỉ chạy khi Okiru mở. Quyền Thời gian sử dụng có thể thu hồi. Không bảo đảm nhắc mỗi năm giây ở nền hay khóa không thể vượt qua. Xem số thực tế và giờ cuối trong Báo thức.
+Gửi góp ý
+Phân loại
+Sự cố
+Đề xuất
+Khác
+Tóm tắt (tối đa 160 ký tự)
+Chi tiết (tối đa 4.000 ký tự)
+Email trả lời (không bắt buộc)
+Gửi góp ý
+Đã nhận góp ý. Cảm ơn bạn!
+Gửi biểu mẫu, email tùy chọn, phiên bản app và hệ thống, ngôn ngữ. Không kèm ảnh camera hay lịch sử báo thức. Nếu thất bại, bản nháp giữ trên thiết bị.
+Dịch vụ chưa được triển khai. Bản nháp giữ trên thiết bị này.
+Nhập tóm tắt và chi tiết trong giới hạn ký tự.
+Chờ 20 giây giữa các lần gửi.
+Máy chủ chưa xác nhận nhận được. Bản nháp được giữ; hãy thử lại.
+Có thể đánh giá khi Okiru chính thức có trên App Store.
+Okiru không cần tài khoản, không quảng cáo hoặc theo dõi. Báo thức, số lần và lịch sử lưu trên thiết bị. Nhận diện khớp cơ thể tại chỗ; không lưu hay tải video lên. Lựa chọn app dùng mã thông báo ẩn của Apple. Khi tự nguyện gửi góp ý, văn bản, email tùy chọn, phiên bản và ngôn ngữ được gửi tới Google Apps Script và Google Sheets riêng của nhà phát triển, không có ảnh hoặc lịch sử thức dậy. Có thể xóa bản ghi đã kết thúc hoặc đặt lại Okiru. Thu hồi quyền ngăn chức năng liên quan hoạt động. Cần cấu hình URL chính thức về quyền riêng tư và hỗ trợ trước phát hành.
+Thử thông báo sau 5 giây
+Đã lên lịch thử sau năm giây. Không tạo bản ghi thức dậy.
+Chỉ thử thông báo, không chứng minh độ tin cậy AlarmKit trên màn hình khóa. Cần thử qua đêm trên iPhone thật.
+Không có bộ nhớ dùng chung. Bản ký cho thiết bị cần App Group Okiru đã đăng ký.
+Không thể đọc hoặc lưu dữ liệu. Thay đổi chưa được xác nhận.
+Quyền Thời gian sử dụng không có hoặc đã thu hồi. Không xác nhận được hạn chế.
+Hạn chế phải ít nhất 15 phút và ngắn hơn 24 giờ.
+Cho phép báo thức trong cài đặt hệ thống trước khi bật.
+Thông báo chưa được phép. Không thể lên lịch nhắc thêm. Kiểm tra cài đặt.
+Không đủ dung lượng cho báo thức chính. Giảm lịch đang bật.
+Hệ thống không giữ đủ các thông báo. Lịch chưa được xác nhận.
+Giờ hoặc ngày trong tuần không hợp lệ.
+Chọn thời điểm tương lai cho báo thức một lần.
+Khôi phục lịch cần được xử lý. Kiểm tra quyền và mở lại Okiru trước khi dựa vào báo thức.
+Cho phép camera trong cài đặt để đếm chống đẩy.
+Không dùng được camera trước. Dùng iPhone thật hoặc gỡ khẩn cấp.
+Không tải được âm báo.
+Bình minh
+Chuông sáng
+Marimba
+Nhịp
+Quỹ đạo
+Thủy triều
+Dừng
+Đã đạt giới hạn báo thức của hệ thống. Okiru đã xóa các lịch cũ; hãy thử lưu lại.

@@ -1,0 +1,161 @@
+Home
+Sveglia
+Impostazioni
+OK
+Chiudi
+Annulla
+Salva
+Elimina
+Fine
+Esci
+Attenzione
+Attiva
+Tutto
+Segui il sistema
+Ogni giorno
+Una volta
+Ogni settimana
+Ora
+Data
+Periodo
+Versione
+I tuoi dati
+Assistenza
+Prova Okiru
+Ascolta
+Suoneria
+Lingua
+Privacy
+Lascia una recensione
+Compatibilità iOS
+Apri impostazioni di sistema
+Inizia
+Muoviti per accogliere un nuovo giorno.
+Il tuo prossimo mattino inizia qui.
+Prossima sveglia
+Nessuna sveglia
+Successi entro il limite
+Serie di successi
+%d giorni
+%d / 10
+Statistiche
+Conta la prima sveglia valida di ogni giorno. L'ora di completamento non misura l'uscita dal letto. I giorni senza sveglia sono esclusi. Un risultato mancante non dimostra che la sveglia abbia suonato.
+Ritardo medio
+Ora di completamento
+Ritardo (minuti)
+Cronologia
+Tutti gli eventi
+Nessun evento
+Cancella eventi terminati
+Cancellare gli eventi terminati? Attività e restrizioni in corso restano.
+Ripristina Okiru
+Annullare le sveglie, rimuovere le restrizioni Okiru e cancellare la cronologia?
+Aggiungi sveglia
+Modifica sveglia
+Nome della sveglia
+Programmazione
+Tocca + per preparare il primo mattino.
+Nessuna sveglia
+Eliminare la sveglia? Le restrizioni attive richiedono comunque il completamento o lo sblocco di emergenza.
+Sfida del risveglio
+Dieci piegamenti
+La sfida è ancora da completare
+Inizia la sfida
+Sono passati cinque minuti; puoi ancora completare
+Un nuovo giorno ti aspetta
+Uscire non completa l'attività e non rimuove le restrizioni.
+Prova la sfida con fotocamera
+È una prova: non influisce su cronologia o restrizioni.
+In programma
+In corso
+Completata in tempo
+Completata in ritardo
+Non completata
+Sblocco di emergenza
+Dieci piegamenti in cinque minuti: obiettivo raggiunto!
+Attività completata in ritardo. Restano le restrizioni il cui orario non è terminato.
+Sfida attuale sbloccata. Le programmazioni future restano.
+Sistema il telefono stabilmente. La fotocamera anteriore deve riprendere tutto il corpo di tre quarti laterale. Una discesa e una risalita complete contano una volta.
+Corpo rilevato. Scendi e risali completamente.
+Continua così
+Fotocamera interrotta. Torna a Okiru per continuare.
+Promemoria aggiuntivi
+Promemoria effettivamente programmati
+Ultimo promemoria programmato
+Chiudere un avviso non completa l'attività. Nell'app appare un segnale ogni cinque secondi. In background si programmano notifiche limitate fino a tre ore dopo la sveglia originale. Numero e copertura dipendono dalla capacità; silenzioso e Full immersion influiscono sugli avvisi.
+Capacità limitata. Sopra sono indicati numero effettivo e ultimo orario. Priorità alle sveglie principali; apri Okiru per aggiornare i promemoria.
+Ti aspettano dieci piegamenti. Chiudere questa notifica non completa l'attività.
+Restrizioni delle app
+Ora di inizio
+Prima ora di sblocco
+App consentite (%d)
+Restrizioni attive
+Occorre raggiungere l'orario di sblocco E completare l'attività associata. Il completamento tardivo sblocca comunque. Le restrizioni sovrapposte restano indipendenti. Puoi revocare il permesso nelle impostazioni di sistema.
+Scegli solo singole app, fino a 50, come Spotify. Categorie e siti web non sono eccezioni ammesse.
+Apri Okiru e completa la sfida. Le restrizioni terminano dopo l'orario previsto e il completamento. Lo sblocco di emergenza è disponibile in Okiru.
+Tieni premuto 3 secondi: sblocco di emergenza
+Sbloccare le restrizioni attuali?
+Motivo (facoltativo)
+Sblocca ora
+Rimuove le restrizioni e gli avvisi Okiru attivi ora. Non conta come successo. Le programmazioni future restano.
+Permessi
+Consentito
+Non consentito
+Sveglie di sistema
+Notifiche
+Fotocamera
+Tempo di utilizzo
+Consenti sveglie e promemoria
+Autorizza Tempo di utilizzo
+Okiru usa la fotocamera anteriore per contare i piegamenti sul dispositivo. Non salva né carica video.
+Okiru programma le sveglie che crei.
+Svegliati con dieci piegamenti.
+Completa entro cinque minuti dalla prima sveglia giornaliera.
+Chiudere un avviso non completa la sfida.
+Le immagini sono elaborate sul telefono. Nessun video viene salvato o caricato.
+In caso di malessere, problemi alla fotocamera o urgenza, tieni premuto lo sblocco di emergenza per tre secondi e conferma. È registrato separatamente dai successi.
+Sveglia di sistema (iOS 26+). I promemoria restano soggetti alle impostazioni di notifiche e Full immersion.
+Modalità notifiche (iOS 17/18). Silenzioso, Full immersion e impostazioni influiscono sul suono; la suoneria continua non è garantita.
+iOS 17/18 usa notifiche locali per le sveglie principali, senza garanzia di superare silenzioso o Full immersion. iOS 26+ usa AlarmKit, che può superarli dopo autorizzazione, ma il sistema mantiene il comando di arresto. I promemoria sono limitati e locali su tutte le versioni, senza ereditare tutte le capacità di AlarmKit. La fotocamera funziona solo con Okiru aperto. Tempo di utilizzo richiede un permesso revocabile. Non si garantiscono avvisi ogni cinque secondi in background né blocchi impossibili da aggirare. Vedi numero effettivo e ultimo orario in Sveglia.
+Invia feedback
+Categoria
+Problema
+Suggerimento
+Altro
+Riepilogo (massimo 160 caratteri)
+Dettagli (massimo 4.000 caratteri)
+Email di risposta (facoltativa)
+Invia feedback
+Feedback ricevuto. Grazie!
+Si inviano modulo, email facoltativa, versioni di app e sistema e lingua. Nessuna immagine o cronologia delle sveglie. Se l'invio fallisce, la bozza resta sul dispositivo.
+Il servizio non è ancora pubblicato. La bozza resta sul dispositivo.
+Inserisci riepilogo e dettagli entro i limiti.
+Attendi 20 secondi tra gli invii.
+Il server non ha confermato la ricezione. Bozza conservata; riprova.
+Le recensioni saranno disponibili dopo la pubblicazione su App Store.
+Okiru non richiede un account e non include pubblicità o tracciamento. Sveglie, conteggi e cronologia restano sul dispositivo. Le articolazioni sono riconosciute localmente, senza salvare o caricare video. La selezione delle app usa token opachi di Apple. Se invii feedback, testo, email facoltativa, versioni e lingua vanno al Google Apps Script e Google Sheets dedicati dello sviluppatore, senza immagini o cronologia. Puoi cancellare gli eventi terminati o ripristinare Okiru. Revocare i permessi impedisce la funzione relativa. Prima della pubblicazione servono gli URL ufficiali di privacy e assistenza.
+Prova notifica tra 5 secondi
+Prova programmata tra cinque secondi. Nessun evento di risveglio creato.
+Verifica le notifiche, non l'affidabilità di AlarmKit a schermo bloccato. Servono prove notturne su iPhone reale.
+Archivio condiviso non disponibile. La build firmata richiede un App Group Okiru registrato.
+Impossibile leggere o salvare dati. Modifiche non confermate.
+Tempo di utilizzo non autorizzato o revocato. Restrizioni non confermate.
+La restrizione deve durare almeno 15 minuti e meno di 24 ore.
+Consenti le sveglie nelle impostazioni di sistema prima di attivarla.
+Notifiche non consentite. Impossibile programmare promemoria. Controlla le impostazioni.
+Capacità insufficiente per le sveglie principali. Riduci le programmazioni attive.
+Il sistema non ha mantenuto tutti gli avvisi. Programmazione non confermata.
+Ora o giorni della settimana non validi.
+Scegli una data futura per la sveglia singola.
+Il recupero della programmazione richiede attenzione. Controlla i permessi e riapri Okiru prima di affidarti alle sveglie.
+Consenti la fotocamera per contare i piegamenti.
+Fotocamera anteriore non disponibile. Usa un iPhone reale o lo sblocco di emergenza.
+Impossibile caricare la suoneria.
+Alba
+Campane
+Marimba
+Battito
+Orbita
+Marea
+Ferma
+È stato raggiunto il limite di sveglie del sistema. Okiru ha rimosso le pianificazioni obsolete; prova a salvare di nuovo.

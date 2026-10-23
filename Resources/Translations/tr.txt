@@ -1,0 +1,161 @@
+Ana Sayfa
+Alarm
+Ayarlar
+Tamam
+Kapat
+İptal
+Kaydet
+Sil
+Bitti
+Ayrıl
+Dikkat
+Etkin
+Tümü
+Sistemi izle
+Her gün
+Bir kez
+Haftalık
+Saat
+Tarih
+Dönem
+Sürüm
+Verileriniz
+Destek
+Okiru'yu deneyin
+Dinle
+Alarm sesi
+Dil
+Gizlilik
+Değerlendirme yaz
+iOS uyumluluğu
+Sistem ayarlarını aç
+Başla
+Yeni güne hareketle başlayın.
+Bir sonraki sabahınız burada başlar.
+Sonraki alarm
+Alarm yok
+Zamanında başarı oranı
+Başarı serisi
+%d gün
+%d / 10
+İstatistikler
+Her günün ilk geçerli alarmı esas alınır. Tamamlanma saati yataktan çıkış anını ölçmez. Alarmsız günler hariçtir. Tamamlanma kaydının olmaması alarmın gerçekten çaldığını kanıtlamaz.
+Ortalama gecikme
+Görevin tamamlanma saati
+Gecikme (dakika)
+Geçmiş
+Tüm alarm kayıtları
+Henüz kayıt yok
+Bitmiş kayıtları sil
+Bitmiş kayıtlar silinsin mi? Etkin görev ve kısıtlamalar korunur.
+Okiru'yu sıfırla
+Alarmlar iptal edilsin, Okiru kısıtlamaları ve geçmiş silinsin mi?
+Alarm ekle
+Alarmı düzenle
+Alarm adı
+Program
+İlk sabahınızı planlamak için + düğmesine dokunun.
+Alarm yok
+Alarm silinsin mi? Etkin kısıtlamalar görevi tamamlamayı veya acil kaldırmayı gerektirir.
+Uyanma mücadelesi
+On şınav
+Mücadeleniz henüz tamamlanmadı
+Mücadeleyi başlat
+Beş dakika geçti; görevi hâlâ tamamlayabilirsiniz
+Yeni bir gün sizi bekliyor
+Ayrılmak görevi tamamlamaz ve kısıtlamaları kaldırmaz.
+Kameralı görevi dene
+Bu bir alıştırmadır; geçmişi veya kısıtlamaları etkilemez.
+Bekliyor
+Devam ediyor
+Zamanında tamamlandı
+Geç tamamlandı
+Tamamlanmadı
+Acil kaldırma
+Beş dakikada on şınav tamamlandı!
+Görev geç tamamlandı. Bitiş saati gelmeyen kısıtlamalar sürer.
+Mevcut mücadele kaldırıldı. Gelecek programlar korunur.
+Telefonu sabitleyin. Ön kamera vücudunuzun tamamını ön-yan açıdan görsün. Tam olarak alçalıp yükselmek bir tekrar sayılır.
+Vücut algılandı. Tam alçalıp yükselin.
+Devam edin
+Kamera kesintiye uğradı. Devam etmek için Okiru'ya dönün.
+Ek hatırlatmalar
+Gerçekten planlanan hatırlatmalar
+Son planlanan hatırlatma
+Bildirimi kapatmak görevi tamamlamaz. Uygulamada beş saniyede bir ipucu gösterilir. Arka planda ilk alarmdan en fazla üç saat sonrasına kadar sınırlı bildirimler önceden planlanır. Sayı ve kapsam kapasiteye bağlıdır; sessiz mod ve Odak etkilidir.
+Kapasite sınırlı. Gerçek sayı ve son saat yukarıdadır. Ana alarmlar önceliklidir; kapsamı yenilemek için Okiru'yu açın.
+On şınav sizi bekliyor. Bu bildirimi kapatmak görevi tamamlamaz.
+Uygulama kısıtlamaları
+Başlangıç saati
+En erken kaldırma saati
+İzin verilen uygulamalar (%d)
+Uygulama kısıtlamaları etkin
+Kaldırma saatinin gelmesi VE ilgili görevin tamamlanması gerekir. Geç tamamlamak da kilidi açar. Çakışan kısıtlamalar bağımsız sürer. Sistem ayarlarından izni geri alabilirsiniz.
+Spotify gibi en fazla 50 ayrı uygulama seçin. Kategoriler ve web siteleri istisna olarak kullanılamaz.
+Okiru'yu açıp görevi tamamlayın. Kısıtlamalar saat geldiğinde ve görev tamamlandığında kalkar. Okiru'da acil kaldırma da vardır.
+3 saniye basılı tutun: acil kaldırma
+Mevcut kısıtlamalar kaldırılsın mı?
+Neden (isteğe bağlı)
+Şimdi kaldır
+Şu anda etkin Okiru kısıtlamalarını ve uyanma uyarılarını kaldırır. Başarı sayılmaz. Gelecek programlar korunur.
+İzinler
+İzin verildi
+İzin verilmedi
+Sistem alarmları
+Bildirimler
+Kamera
+Ekran Süresi
+Alarm ve hatırlatmalara izin ver
+Ekran Süresi'ne izin ver
+Okiru ön kamerayı kullanarak bu cihazda şınav sayar. Video kaydetmez veya yüklemez.
+Okiru oluşturduğunuz uyanma alarmlarını planlar.
+On şınavla uyanın.
+Günün ilk alarmından sonraki beş dakika içinde tamamlayın.
+Uyarıyı kapatmak mücadeleyi tamamlamaz.
+Kamera işlemleri telefonda yapılır. Video kaydedilmez veya yüklenmez.
+Rahatsızlık, kamera sorunu veya acil durumda acil kaldırmayı üç saniye basılı tutup onaylayın. Başarıdan ayrı kaydedilir.
+Sistem alarmı (iOS 26+). Ek bildirimler hâlâ bildirim ve Odak ayarlarına bağlıdır.
+Bildirim modu (iOS 17/18). Sessiz mod, Odak ve ayarlar sesi etkiler; kesintisiz çalma garanti edilmez.
+iOS 17/18 ana alarm için yerel bildirim kullanır; sessiz modu veya Odak'ı aşacağı garanti edilmez. iOS 26+ AlarmKit kullanır ve izinle bunları aşabilir, fakat sistem durdurma kontrolünü korur. Ek hatırlatmalar tüm sürümlerde sınırlı yerel bildirimlerdir ve AlarmKit'in tüm yeteneklerini devralmaz. Kamera yalnızca Okiru açıkken çalışır. Ekran Süresi izni geri alınabilir. Arka planda beş saniyede bir uyarı veya aşılamaz kilit garanti edilmez. Gerçek sayı ve son saat Alarm ekranındadır.
+Geri bildirim gönder
+Kategori
+Sorun
+Öneri
+Diğer
+Özet (en fazla 160 karakter)
+Ayrıntılar (en fazla 4.000 karakter)
+Yanıt e-postası (isteğe bağlı)
+Geri bildirim gönder
+Geri bildirim alındı. Teşekkürler!
+Form, isteğe bağlı e-posta, uygulama ve sistem sürümleri ile dil gönderilir. Kamera görüntüsü veya alarm geçmişi eklenmez. Başarısız olursa taslak cihazda kalır.
+Hizmet henüz yayımlanmadı. Taslak cihazınızda kalır.
+Karakter sınırları içinde özet ve ayrıntı girin.
+Gönderimler arasında 20 saniye bekleyin.
+Sunucu alındığını doğrulamadı. Taslak korundu; tekrar deneyin.
+Okiru App Store'da yayımlandığında değerlendirme yazabilirsiniz.
+Okiru hesap gerektirmez; reklam veya izleme içermez. Alarmlar, sayımlar ve geçmiş cihazda kalır. Eklem algılama yereldir; video kaydedilmez veya yüklenmez. Uygulama seçimi Apple'ın opak belirteçlerini kullanır. İsteğe bağlı geri bildirimde metin, e-posta, sürümler ve dil geliştiricinin özel Google Apps Script ve Google Sheets hizmetine gönderilir; görüntü veya alarm geçmişi gönderilmez. Bitmiş kayıtları silebilir veya Okiru'yu sıfırlayabilirsiniz. İzni geri almak ilgili işlevi engeller. Yayından önce resmi gizlilik ve destek URL'leri ayarlanmalıdır.
+5 saniye sonra bildirim testi
+Beş saniye sonrasına test planlandı. Uyanma kaydı oluşturmaz.
+Bildirimleri test eder, kilit ekranındaki AlarmKit güvenilirliğini değil. Gerçek iPhone ile gece testleri gerekir.
+Paylaşılan depolama yok. İmzalı cihaz sürümü kayıtlı bir Okiru App Group gerektirir.
+Veri okunamadı veya kaydedilemedi. Değişiklikler doğrulanmadı.
+Ekran Süresi izni yok veya geri alındı. Kısıtlamalar doğrulanamıyor.
+Kısıtlama en az 15 dakika ve 24 saatten kısa olmalıdır.
+Etkinleştirmeden önce sistem ayarlarında alarmlara izin verin.
+Bildirim izni yok. Ek hatırlatmalar planlanamıyor. Ayarları kontrol edin.
+Ana alarmlar için kapasite yetersiz. Etkin programları azaltın.
+Sistem tüm uyarıları tutmadı. Program doğrulanmadı.
+Saat veya haftanın günleri geçersiz.
+Tek seferlik alarm için gelecek bir tarih seçin.
+Program kurtarma işlemi ilgi gerektiriyor. Alarmlara güvenmeden önce izinleri kontrol edip Okiru'yu yeniden açın.
+Şınav saymak için ayarlarda kameraya izin verin.
+Ön kamera yok. Gerçek iPhone veya acil kaldırmayı kullanın.
+Alarm sesi yüklenemedi.
+Gün doğumu
+Çanlar
+Marimba
+Nabız
+Yörünge
+Gelgit
+Durdur
+Sistem alarmı sınırına ulaşıldı. Okiru eski programları kaldırdı; yeniden kaydetmeyi deneyin.

@@ -1,0 +1,12 @@
+{
+  "signing_and_identifiers_confirmed": {"passed": true, "evidence": "2026-09-28: Okiru 1.0.0 build 5 archived, exported with Cloud Managed Apple Distribution, uploaded successfully and entered App Store Connect processing for the main app and all three extensions."},
+  "family_controls_distribution_approved": {"passed": true, "evidence": "2026-09-28: App Store export created distribution profiles for com.shawn.okiru, OkiruMonitor, OkiruShield and OkiruShieldAction; each exported binary retained com.apple.developer.family-controls=true."},
+  "real_device_alarm_matrix": {"passed": false, "evidence": ""},
+  "pose_5_people_30_sets_29_exact": {"passed": false, "evidence": ""},
+  "restriction_overlap_recovery": {"passed": false, "evidence": ""},
+  "two_overnight_runs": {"passed": false, "evidence": ""},
+  "twenty_languages_accessibility_review": {"passed": false, "evidence": ""},
+  "feedback_production_end_to_end": {"passed": false, "evidence": ""},
+  "privacy_support_and_store_metadata": {"passed": false, "evidence": "2026-09-23: bilingual support and privacy pages verified live at speech.vocaldive.com; App Store support URL, copyright and review contact saved. Remaining: App Privacy questionnaire and final build selection."},
+  "no_blocking_defects": {"passed": false, "evidence": ""}
+}

@@ -1,0 +1,161 @@
+Accueil
+Alarme
+Réglages
+OK
+Fermer
+Annuler
+Enregistrer
+Supprimer
+Terminé
+Quitter
+Attention
+Activée
+Tout
+Suivre le système
+Chaque jour
+Une fois
+Chaque semaine
+Heure
+Date
+Période
+Version
+Vos données
+Assistance
+Essayer Okiru
+Écouter
+Sonnerie
+Langue
+Confidentialité
+Laisser un avis
+Compatibilité iOS
+Ouvrir les réglages système
+Commencer
+Bougez pour accueillir une nouvelle journée.
+Votre prochain matin commence ici.
+Prochaine alarme
+Aucune alarme
+Réussite à temps
+Série de réussites
+%d jours
+%d / 10
+Statistiques
+Le calcul utilise la première alarme valide du jour. L'heure de fin de tâche ne mesure pas la sortie du lit. Les jours sans alarme sont exclus. L'absence de résultat ne prouve pas que l'alarme a sonné.
+Retard moyen
+Heure de fin de tâche
+Retard (minutes)
+Historique
+Tous les événements
+Aucun événement
+Effacer les événements terminés
+Effacer les événements terminés ? Les tâches et restrictions actives sont conservées.
+Réinitialiser Okiru
+Annuler les alarmes, lever les restrictions Okiru et effacer l'historique ?
+Ajouter une alarme
+Modifier l'alarme
+Nom de l'alarme
+Programmation
+Touchez + pour préparer votre premier matin.
+Aucune alarme
+Supprimer l'alarme ? Les restrictions actives nécessitent la fin de la tâche ou la levée d'urgence.
+Défi du réveil
+Dix pompes
+Votre défi reste à terminer
+Commencer le défi
+Les cinq minutes sont écoulées ; vous pouvez encore terminer
+Une nouvelle journée vous attend
+Quitter cet écran ne termine pas la tâche et ne lève pas les restrictions.
+Essayer le défi caméra
+Cet entraînement n'affecte ni l'historique ni les restrictions.
+À venir
+En cours
+Terminé à temps
+Terminé en retard
+Non terminé
+Levée d'urgence
+Dix pompes en cinq minutes : objectif atteint !
+Tâche terminée en retard. Les restrictions dont l'horaire n'est pas écoulé restent actives.
+Défi actuel levé. Les programmations futures sont conservées.
+Stabilisez le téléphone. La caméra avant doit voir tout le corps de trois quarts côté. Une descente puis une remontée complètes comptent pour une pompe.
+Corps détecté. Descendez puis remontez complètement.
+Continuez
+Caméra interrompue. Revenez dans Okiru pour continuer.
+Rappels supplémentaires
+Rappels réellement programmés
+Dernier rappel programmé
+Fermer une alerte ne termine pas la tâche. Dans l'app, un signal apparaît toutes les cinq secondes. En arrière-plan, des notifications limitées sont programmées jusqu'à trois heures après l'alarme initiale. Leur nombre et couverture dépendent de la capacité ; le mode silencieux et Concentration s'appliquent.
+Capacité limitée. Le nombre réel et le dernier rappel figurent ci-dessus. Priorité aux alarmes principales ; ouvrez Okiru pour actualiser les rappels.
+Dix pompes vous attendent. Fermer cette notification ne termine pas la tâche.
+Restrictions d'apps
+Heure de début
+Première heure de levée possible
+Apps autorisées (%d)
+Restrictions actives
+Il faut atteindre l'heure de levée ET terminer la tâche liée. Une fin tardive permet aussi la levée. Les restrictions superposées restent indépendantes. Vous pouvez révoquer l'autorisation dans les réglages système.
+Choisissez uniquement des apps individuelles, jusqu'à 50, comme Spotify. Les catégories et sites web ne peuvent pas être des exceptions.
+Ouvrez Okiru pour terminer le défi. Les restrictions prennent fin après l'heure prévue et la tâche terminée. Une levée d'urgence est disponible dans Okiru.
+Maintenir 3 secondes : levée d'urgence
+Lever les restrictions actuelles ?
+Motif (facultatif)
+Lever maintenant
+Ceci lève les restrictions et rappels Okiru actuellement actifs. Ce n'est pas une réussite. Les programmations futures restent en place.
+Autorisations
+Autorisé
+Non autorisé
+Alarmes système
+Notifications
+Caméra
+Temps d'écran
+Autoriser les alarmes et rappels
+Autoriser Temps d'écran
+Okiru utilise la caméra avant pour compter les pompes sur cet appareil. Aucune vidéo n'est enregistrée ou envoyée.
+Okiru programme les alarmes de réveil que vous créez.
+Réveillez-vous avec dix pompes.
+Terminez dans les cinq minutes suivant la première alarme du jour.
+Fermer une alerte ne termine pas le défi.
+Les images sont traitées sur votre téléphone. Aucune vidéo n'est enregistrée ou envoyée.
+En cas de malaise, de panne caméra ou d'urgence, maintenez la levée d'urgence trois secondes puis confirmez. C'est enregistré séparément d'une réussite.
+Alarme système (iOS 26+). Les rappels restent soumis aux réglages de notifications et de Concentration.
+Mode notifications (iOS 17/18). Le silence, Concentration et les réglages influent sur le son ; une sonnerie continue n'est pas garantie.
+Sur iOS 17/18, les alarmes principales sont des notifications locales, sans garantie de contourner le silence ou Concentration. Sur iOS 26+, AlarmKit peut les contourner après autorisation, mais le système permet toujours l'arrêt. Les rappels sont limités et locaux sur toutes les versions, sans hériter de toutes les capacités d'AlarmKit. La caméra fonctionne seulement avec Okiru ouvert. Temps d'écran exige une autorisation révocable. Aucun rappel toutes les cinq secondes en arrière-plan ni verrouillage inviolable n'est garanti. Consultez le nombre réel et le dernier rappel dans Alarme.
+Envoyer un retour
+Catégorie
+Problème
+Suggestion
+Autre
+Résumé (160 caractères maximum)
+Détails (4 000 caractères maximum)
+Email de réponse (facultatif)
+Envoyer le retour
+Retour reçu, merci !
+Envoi du formulaire, de l'email facultatif, des versions de l'app et du système et de la langue. Ni images ni historique d'alarmes. En cas d'échec, le brouillon reste sur l'appareil.
+Le service n'est pas encore déployé. Le brouillon reste sur cet appareil.
+Saisissez un résumé et des détails respectant les limites.
+Attendez 20 secondes entre les envois.
+Le serveur n'a pas confirmé la réception. Brouillon conservé ; réessayez.
+Les avis seront disponibles après publication d'Okiru sur l'App Store.
+Okiru ne nécessite aucun compte et ne contient ni publicité ni suivi. Alarmes, comptages et historique restent sur l'appareil. La caméra reconnaît les articulations localement, sans enregistrer ni envoyer de vidéo. La sélection d'apps utilise les jetons opaques d'Apple. Si vous envoyez un retour, le texte, l'email facultatif, les versions et la langue sont transmis au Google Apps Script et Google Sheets dédiés du développeur, sans images ni historique. Vous pouvez effacer les événements terminés ou réinitialiser Okiru. Révoquer une autorisation empêche la fonction associée. Les URL officielles de confidentialité et d'assistance restent à configurer avant publication.
+Tester une notification dans 5 secondes
+Test programmé dans cinq secondes, sans créer d'événement de réveil.
+Ce test concerne les notifications, pas la fiabilité d'AlarmKit sur écran verrouillé. Des tests nocturnes sur iPhone réel sont nécessaires.
+Stockage partagé indisponible. La version signée nécessite un App Group Okiru enregistré.
+Lecture ou enregistrement impossible. Les modifications ne sont pas confirmées.
+Autorisation Temps d'écran absente ou révoquée. Restrictions non confirmées.
+La période de restriction doit durer au moins 15 minutes et moins de 24 heures.
+Autorisez les alarmes dans les réglages système avant de l'activer.
+Notifications non autorisées. Impossible de programmer les rappels. Vérifiez les réglages.
+Capacité insuffisante pour les alarmes principales. Réduisez les programmations actives.
+Le système n'a pas conservé toutes les alertes. Programmation non confirmée.
+Heure ou jours de semaine invalides.
+Choisissez une date future pour une alarme unique.
+La restauration des programmations nécessite une intervention. Vérifiez les autorisations et rouvrez Okiru avant de compter sur les alarmes.
+Autorisez la caméra dans les réglages pour compter les pompes.
+Caméra avant indisponible. Utilisez un iPhone réel ou la levée d'urgence.
+Impossible de charger la sonnerie.
+Aurore
+Cloches
+Marimba
+Pulsation
+Orbite
+Marée
+Arrêter
+La limite d’alarmes du système est atteinte. Okiru a supprimé les anciens horaires ; réessayez d’enregistrer.

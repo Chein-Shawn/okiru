@@ -1,0 +1,2 @@
+"NSCameraUsageDescription" = "Okiru uses the front camera to count push-ups on this device. No video is stored or uploaded.";
+"NSAlarmKitUsageDescription" = "Okiru schedules the wake-up alarms you create.";

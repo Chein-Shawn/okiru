@@ -1,0 +1,161 @@
+Beranda
+Alarm
+Pengaturan
+OK
+Tutup
+Batal
+Simpan
+Hapus
+Selesai
+Keluar
+Perhatian
+Aktif
+Semua
+Ikuti sistem
+Setiap hari
+Sekali
+Mingguan
+Waktu
+Tanggal
+Periode
+Versi
+Data Anda
+Dukungan
+Coba Okiru
+Dengarkan
+Nada alarm
+Bahasa
+Privasi
+Beri ulasan
+Kompatibilitas iOS
+Buka pengaturan sistem
+Mulai
+Bergerak menyambut hari baru.
+Pagi berikutnya dimulai di sini.
+Alarm berikutnya
+Tidak ada alarm
+Keberhasilan tepat waktu
+Rangkaian keberhasilan
+%d hari
+%d / 10
+Statistik
+Menggunakan alarm valid pertama setiap hari. Waktu selesai bukan pengukuran saat Anda keluar dari tempat tidur. Hari tanpa alarm dikecualikan. Tidak adanya penyelesaian tidak membuktikan alarm benar-benar berbunyi.
+Rata-rata keterlambatan
+Waktu tugas selesai
+Keterlambatan (menit)
+Riwayat
+Semua catatan alarm
+Belum ada catatan
+Hapus catatan yang berakhir
+Hapus catatan yang berakhir? Tugas dan pembatasan aktif tetap ada.
+Atur ulang Okiru
+Batalkan alarm, lepaskan pembatasan Okiru, dan hapus riwayat?
+Tambah alarm
+Edit alarm
+Nama alarm
+Jadwal
+Ketuk + untuk menyiapkan pagi pertama Anda.
+Belum ada alarm
+Hapus alarm? Pembatasan aktif tetap memerlukan penyelesaian tugas atau pelepasan darurat.
+Tantangan bangun
+Sepuluh push-up
+Tantangan Anda belum selesai
+Mulai tantangan
+Lima menit berlalu; Anda masih bisa menyelesaikan tugas
+Hari baru menanti Anda
+Keluar tidak menyelesaikan tugas atau melepaskan pembatasan.
+Coba tantangan kamera
+Ini latihan, tanpa memengaruhi riwayat atau pembatasan.
+Akan datang
+Sedang berlangsung
+Selesai tepat waktu
+Selesai terlambat
+Belum selesai
+Pelepasan darurat
+Sepuluh push-up dalam lima menit tercapai!
+Tugas selesai terlambat. Pembatasan yang belum mencapai waktu akhir tetap berlaku.
+Tantangan saat ini dilepas. Jadwal mendatang tetap ada.
+Letakkan ponsel dengan stabil. Kamera depan harus melihat seluruh tubuh dari sudut depan samping. Turun penuh lalu naik penuh dihitung satu kali.
+Tubuh terdeteksi. Turun dan naik sepenuhnya.
+Teruskan
+Kamera terhenti. Kembali ke Okiru untuk melanjutkan.
+Pengingat tambahan
+Pengingat yang benar-benar dijadwalkan
+Pengingat terjadwal terakhir
+Mengabaikan pemberitahuan tidak menyelesaikan tugas. Di dalam app ada petunjuk setiap lima detik. Di latar belakang, notifikasi terbatas dijadwalkan hingga tiga jam setelah alarm awal. Jumlah dan jangkauan bergantung pada kapasitas; mode senyap dan Fokus memengaruhinya.
+Kapasitas terbatas. Jumlah sebenarnya dan waktu terakhir ditampilkan di atas. Alarm utama diprioritaskan; buka Okiru untuk memperbarui pengingat.
+Sepuluh push-up menanti. Menghapus notifikasi ini tidak menyelesaikan tugas.
+Pembatasan app
+Waktu mulai
+Waktu pelepasan paling awal
+App yang diizinkan (%d)
+Pembatasan app aktif
+Harus mencapai waktu pelepasan DAN menyelesaikan tugas terkait. Penyelesaian terlambat juga membuka akses. Pembatasan tumpang tindih tetap independen. Izin bisa dicabut di pengaturan sistem.
+Pilih hanya app individual, maksimal 50, misalnya Spotify. Kategori dan situs web tidak dapat menjadi pengecualian.
+Buka Okiru dan selesaikan tantangan. Pembatasan berakhir setelah waktu pelepasan dan tugas selesai. Pelepasan darurat tersedia di Okiru.
+Tahan 3 detik: pelepasan darurat
+Lepaskan pembatasan saat ini?
+Alasan (opsional)
+Lepaskan sekarang
+Menghapus pembatasan dan petunjuk bangun Okiru yang sedang aktif. Tidak dihitung berhasil. Jadwal mendatang tetap ada.
+Izin
+Diizinkan
+Tidak diizinkan
+Alarm sistem
+Notifikasi
+Kamera
+Durasi Layar
+Izinkan alarm dan pengingat
+Izinkan Durasi Layar
+Okiru memakai kamera depan untuk menghitung push-up di perangkat ini. Video tidak disimpan atau diunggah.
+Okiru menjadwalkan alarm bangun yang Anda buat.
+Bangun dengan sepuluh push-up.
+Selesaikan dalam lima menit setelah alarm pertama hari itu.
+Mengabaikan pemberitahuan tidak menyelesaikan tantangan.
+Pemrosesan kamera hanya di ponsel. Video tidak disimpan atau diunggah.
+Jika tidak enak badan, kamera bermasalah, atau ada keperluan mendesak, tahan pelepasan darurat tiga detik lalu konfirmasikan. Dicatat terpisah dari keberhasilan.
+Alarm sistem (iOS 26+). Pengingat tambahan tetap bergantung pada pengaturan notifikasi dan Fokus.
+Mode notifikasi (iOS 17/18). Senyap, Fokus, dan pengaturan memengaruhi suara; bunyi terus-menerus tidak dijamin.
+iOS 17/18 menggunakan notifikasi lokal sebagai alarm utama tanpa jaminan menembus senyap atau Fokus. iOS 26+ memakai AlarmKit yang dapat menembusnya setelah izin, tetapi sistem tetap menyediakan tombol berhenti. Pengingat tambahan terbatas dan lokal pada semua versi, tanpa mewarisi semua kemampuan AlarmKit. Kamera hanya aktif saat Okiru terbuka. Izin Durasi Layar dapat dicabut. Tidak ada jaminan pemberitahuan tiap lima detik di latar belakang atau kunci yang mustahil dilewati. Jumlah sebenarnya dan waktu terakhir ada di Alarm.
+Kirim masukan
+Kategori
+Masalah
+Saran
+Lainnya
+Ringkasan (maksimal 160 karakter)
+Detail (maksimal 4.000 karakter)
+Email balasan (opsional)
+Kirim masukan
+Masukan diterima. Terima kasih!
+Mengirim formulir, email opsional, versi app dan sistem, serta bahasa. Tidak menyertakan gambar kamera atau riwayat alarm. Jika gagal, draf tetap di perangkat.
+Layanan belum diterapkan. Draf tetap di perangkat ini.
+Isi ringkasan dan detail sesuai batas karakter.
+Tunggu 20 detik di antara pengiriman.
+Server belum mengonfirmasi penerimaan. Draf disimpan; coba lagi.
+Ulasan tersedia setelah Okiru diterbitkan di App Store.
+Okiru tidak memerlukan akun, iklan, atau pelacakan. Alarm, hitungan, dan riwayat disimpan lokal. Sendi tubuh dikenali di perangkat; video tidak disimpan atau diunggah. Pilihan app memakai token buram Apple. Jika Anda mengirim masukan, teks, email opsional, versi, dan bahasa dikirim ke Google Apps Script dan Google Sheets khusus pengembang, tanpa gambar atau riwayat bangun. Catatan yang berakhir dapat dihapus atau Okiru diatur ulang. Pencabutan izin mencegah fungsi terkait bekerja. URL resmi privasi dan dukungan masih perlu disiapkan sebelum rilis.
+Uji notifikasi dalam 5 detik
+Uji dijadwalkan lima detik lagi. Tidak membuat catatan bangun.
+Menguji notifikasi, bukan keandalan AlarmKit di layar terkunci. Perlu uji semalaman pada iPhone nyata.
+Penyimpanan bersama tidak tersedia. Build bertanda tangan memerlukan App Group Okiru terdaftar.
+Data tidak dapat dibaca atau disimpan. Perubahan belum dikonfirmasi.
+Izin Durasi Layar tidak tersedia atau dicabut. Pembatasan belum dikonfirmasi.
+Pembatasan harus minimal 15 menit dan kurang dari 24 jam.
+Izinkan alarm di pengaturan sistem sebelum mengaktifkan.
+Notifikasi tidak diizinkan. Pengingat tambahan tidak dapat dijadwalkan. Periksa pengaturan.
+Kapasitas tidak cukup untuk alarm utama. Kurangi jadwal aktif.
+Sistem tidak mempertahankan semua pemberitahuan. Jadwal belum dikonfirmasi.
+Waktu atau hari tidak valid.
+Pilih tanggal mendatang untuk alarm sekali.
+Pemulihan jadwal perlu ditangani. Periksa izin dan buka kembali Okiru sebelum mengandalkan alarm.
+Izinkan kamera di pengaturan untuk menghitung push-up.
+Kamera depan tidak tersedia. Gunakan iPhone nyata atau pelepasan darurat.
+Nada alarm tidak dapat dimuat.
+Fajar
+Lonceng
+Marimba
+Denyut
+Orbit
+Pasang
+Berhenti
+Batas alarm sistem telah tercapai. Okiru menghapus jadwal lama; coba simpan lagi.

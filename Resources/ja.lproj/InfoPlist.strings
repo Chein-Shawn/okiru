@@ -1,0 +1,2 @@
+"NSCameraUsageDescription" = "Okiru は前面カメラで端末内の腕立て伏せ回数を認識します。動画は保存・送信しません。";
+"NSAlarmKitUsageDescription" = "Okiru は作成した起床アラームを予約します。";

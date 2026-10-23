@@ -1,0 +1,11 @@
+.DS_Store
+.build/
+work/
+DerivedData/
+**/xcuserdata/
+Config/Local.xcconfig
+*.xcuserstate
+backend/.clasp.json
+backend/.clasprc.json
+__pycache__/
+*.pyc

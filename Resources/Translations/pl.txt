@@ -1,0 +1,161 @@
+Start
+Budzik
+Ustawienia
+OK
+Zamknij
+Anuluj
+Zapisz
+Usuń
+Gotowe
+Wyjdź
+Uwaga
+Włączony
+Wszystko
+Język systemu
+Codziennie
+Jednorazowo
+Co tydzień
+Godzina
+Data
+Okres
+Wersja
+Twoje dane
+Pomoc
+Wypróbuj Okiru
+Odsłuchaj
+Dźwięk budzika
+Język
+Prywatność
+Napisz opinię
+Zgodność z iOS
+Otwórz ustawienia systemu
+Zaczynamy
+Ruch na dobry początek dnia.
+Twój kolejny poranek zaczyna się tutaj.
+Następny budzik
+Brak budzika
+Sukcesy w terminie
+Seria sukcesów
+%d dni
+%d / 10
+Statystyki
+Liczy się pierwszy ważny budzik każdego dnia. Godzina ukończenia nie mierzy wyjścia z łóżka. Dni bez budzika są pomijane. Brak ukończenia nie dowodzi, że budzik rzeczywiście zadzwonił.
+Średnie opóźnienie
+Godzina ukończenia zadania
+Opóźnienie (minuty)
+Historia
+Wszystkie zdarzenia
+Brak zapisów
+Wyczyść zakończone zapisy
+Wyczyścić zakończone zapisy? Aktywne zadania i ograniczenia pozostaną.
+Wyzeruj Okiru
+Anulować budziki, zdjąć ograniczenia Okiru i usunąć historię?
+Dodaj budzik
+Edytuj budzik
+Nazwa budzika
+Harmonogram
+Dotknij +, aby zaplanować pierwszy poranek.
+Brak budzików
+Usunąć budzik? Aktywne ograniczenia nadal wymagają ukończenia zadania lub awaryjnego odblokowania.
+Wyzwanie na pobudkę
+Dziesięć pompek
+Wyzwanie jeszcze nieukończone
+Rozpocznij wyzwanie
+Minęło pięć minut; nadal możesz ukończyć zadanie
+Nowy dzień czeka
+Wyjście nie kończy zadania ani nie zdejmuje ograniczeń.
+Wypróbuj zadanie z kamerą
+To ćwiczenie nie wpływa na historię ani ograniczenia.
+Zaplanowane
+W toku
+Ukończone w terminie
+Ukończone za późno
+Nieukończone
+Awaryjne odblokowanie
+Dziesięć pompek w pięć minut — cel osiągnięty!
+Zadanie ukończone za późno. Ograniczenia przed godziną końcową pozostają.
+Bieżące wyzwanie odblokowane. Przyszłe harmonogramy zachowane.
+Stabilnie ustaw telefon. Przednia kamera powinna widzieć całe ciało pod kątem z przodu i z boku. Pełne opuszczenie i podniesienie liczy się jako jedna pompka.
+Wykryto ciało. Opuść się i podnieś całkowicie.
+Tak trzymaj
+Kamera przerwana. Wróć do Okiru, aby kontynuować.
+Dodatkowe przypomnienia
+Rzeczywiście zaplanowane przypomnienia
+Ostatnie zaplanowane przypomnienie
+Odrzucenie powiadomienia nie kończy zadania. W aplikacji wskazówka pojawia się co pięć sekund. W tle planowane są ograniczone powiadomienia do trzech godzin po pierwotnym budziku. Liczba i zakres zależą od pojemności; wpływają na nie tryb cichy i Skupienie.
+Ograniczona pojemność. Powyżej podano rzeczywistą liczbę i ostatni termin. Główne budziki mają priorytet; otwórz Okiru, aby zaktualizować przypomnienia.
+Czeka dziesięć pompek. Odrzucenie tego powiadomienia nie kończy zadania.
+Ograniczenia aplikacji
+Godzina rozpoczęcia
+Najwcześniejsze odblokowanie
+Dozwolone aplikacje (%d)
+Ograniczenia aktywne
+Wymagana jest godzina odblokowania ORAZ ukończenie powiązanego zadania. Późne ukończenie też odblokowuje. Nakładające się ograniczenia pozostają niezależne. Uprawnienie można cofnąć w ustawieniach systemu.
+Wybierz tylko pojedyncze aplikacje, maksymalnie 50, np. Spotify. Kategorie i witryny nie są dozwolonymi wyjątkami.
+Otwórz Okiru i ukończ wyzwanie. Ograniczenia kończą się po wymaganej godzinie i ukończeniu zadania. W Okiru dostępne jest awaryjne odblokowanie.
+Przytrzymaj 3 sekundy: awaryjne odblokowanie
+Zdjąć bieżące ograniczenia?
+Powód (opcjonalny)
+Odblokuj teraz
+Zdejmuje aktualne ograniczenia i monity Okiru. Nie liczy się jako sukces. Przyszłe harmonogramy pozostają.
+Uprawnienia
+Dozwolone
+Niedozwolone
+Budziki systemowe
+Powiadomienia
+Kamera
+Czas przed ekranem
+Zezwól na budziki i przypomnienia
+Zezwól na Czas przed ekranem
+Okiru używa przedniej kamery do liczenia pompek na urządzeniu. Nie zapisuje ani nie przesyła filmów.
+Okiru planuje tworzone przez Ciebie budziki.
+Obudź się dziesięcioma pompkami.
+Ukończ zadanie w ciągu pięciu minut od pierwszego budzika dnia.
+Odrzucenie powiadomienia nie kończy wyzwania.
+Obraz jest przetwarzany na telefonie. Filmy nie są zapisywane ani przesyłane.
+Przy złym samopoczuciu, problemach z kamerą lub pilnej potrzebie przytrzymaj awaryjne odblokowanie przez trzy sekundy i potwierdź. Jest zapisywane oddzielnie od sukcesu.
+Budzik systemowy (iOS 26+). Dodatkowe powiadomienia nadal zależą od ustawień powiadomień i Skupienia.
+Tryb powiadomień (iOS 17/18). Tryb cichy, Skupienie i ustawienia wpływają na dźwięk; ciągłe dzwonienie nie jest gwarantowane.
+iOS 17/18 używa lokalnych powiadomień jako głównych budzików, bez gwarancji pominięcia trybu cichego lub Skupienia. iOS 26+ używa AlarmKit, który może je pominąć po uzyskaniu zgody, ale system nadal pozwala zatrzymać alarm. Dodatkowe przypomnienia we wszystkich wersjach są ograniczone i lokalne, bez pełnych możliwości AlarmKit. Kamera działa tylko przy otwartym Okiru. Uprawnienie Czasu przed ekranem można cofnąć. Nie gwarantujemy powiadomień co pięć sekund w tle ani blokady niemożliwej do obejścia. Rzeczywista liczba i ostatnia godzina są na stronie Budzik.
+Wyślij uwagi
+Kategoria
+Problem
+Sugestia
+Inne
+Podsumowanie (do 160 znaków)
+Szczegóły (do 4000 znaków)
+Email do odpowiedzi (opcjonalny)
+Wyślij uwagi
+Uwagi otrzymane. Dziękujemy!
+Wysyłamy formularz, opcjonalny email, wersje aplikacji i systemu oraz język. Bez obrazów z kamery i historii budzików. Po błędzie szkic zostaje na urządzeniu.
+Usługa nie jest jeszcze wdrożona. Szkic pozostaje na urządzeniu.
+Wpisz podsumowanie i szczegóły w dozwolonym limicie.
+Odczekaj 20 sekund między wysłaniami.
+Serwer nie potwierdził odbioru. Szkic zachowany; spróbuj ponownie.
+Opinie będą dostępne po publikacji Okiru w App Store.
+Okiru nie wymaga konta, reklam ani śledzenia. Budziki, liczniki i historia pozostają lokalnie. Stawy są rozpoznawane na urządzeniu; filmy nie są zapisywane ani przesyłane. Wybór aplikacji korzysta z niejawnych tokenów Apple. Dobrowolne uwagi, opcjonalny email, wersje i język trafiają do dedykowanych Google Apps Script i Google Sheets dewelopera, bez obrazów i historii pobudek. Można wyczyścić zakończone zapisy lub wyzerować Okiru. Cofnięcie uprawnienia blokuje odpowiednią funkcję. Przed publikacją trzeba skonfigurować oficjalne adresy prywatności i pomocy.
+Test powiadomienia za 5 sekund
+Test zaplanowany za pięć sekund. Nie tworzy zapisu pobudki.
+Testuje powiadomienia, nie niezawodność AlarmKit na blokadzie ekranu. Potrzebne są nocne testy na prawdziwym iPhonie.
+Wspólny magazyn niedostępny. Podpisana wersja urządzenia wymaga zarejestrowanej grupy App Group Okiru.
+Nie można odczytać lub zapisać danych. Zmiany niepotwierdzone.
+Brak lub cofnięte uprawnienie Czasu przed ekranem. Ograniczenia niepotwierdzone.
+Ograniczenie musi trwać co najmniej 15 minut i mniej niż 24 godziny.
+Przed włączeniem zezwól na budziki w ustawieniach systemu.
+Powiadomienia niedozwolone. Nie można zaplanować przypomnień. Sprawdź ustawienia.
+Za mała pojemność na główne budziki. Zmniejsz liczbę aktywnych harmonogramów.
+System nie zachował wszystkich alertów. Harmonogram niepotwierdzony.
+Nieprawidłowa godzina lub dni tygodnia.
+Dla jednorazowego budzika wybierz przyszłą datę.
+Odzyskanie harmonogramu wymaga uwagi. Sprawdź uprawnienia i otwórz Okiru ponownie przed poleganiem na budzikach.
+Zezwól na kamerę, aby liczyć pompki.
+Przednia kamera niedostępna. Użyj prawdziwego iPhone'a lub awaryjnego odblokowania.
+Nie można wczytać dźwięku.
+Świt
+Jasne dzwonki
+Marimba
+Puls
+Orbita
+Przypływ
+Zatrzymaj
+Osiągnięto limit alarmów systemowych. Okiru usunął stare harmonogramy; spróbuj zapisać ponownie.

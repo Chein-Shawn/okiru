@@ -1,0 +1,161 @@
+Inicio
+Alarma
+Ajustes
+Aceptar
+Cerrar
+Cancelar
+Guardar
+Eliminar
+Listo
+Salir
+Atención
+Activada
+Todo
+Seguir el sistema
+Cada día
+Una vez
+Semanal
+Hora
+Fecha
+Período
+Versión
+Tus datos
+Ayuda
+Probar Okiru
+Escuchar
+Sonido
+Idioma
+Privacidad
+Escribir una reseña
+Compatibilidad con iOS
+Abrir ajustes del sistema
+Empezar
+Muévete para recibir un nuevo día.
+Tu próxima mañana empieza aquí.
+Próxima alarma
+Sin alarma
+Logros a tiempo
+Racha
+%d días
+%d / 10
+Estadísticas
+Se usa la primera alarma válida de cada día. La hora de finalización no mide cuándo sales de la cama. Se excluyen los días sin alarma. La falta de un resultado no demuestra que la alarma haya sonado.
+Retraso medio
+Hora de finalización
+Retraso (minutos)
+Historial
+Todos los registros
+Aún no hay registros
+Borrar registros terminados
+¿Borrar los registros terminados? Se conservan las tareas y restricciones activas.
+Restablecer Okiru
+¿Cancelar alarmas, liberar las restricciones de Okiru y borrar el historial?
+Añadir alarma
+Editar alarma
+Nombre de la alarma
+Programación
+Toca + para preparar tu primera mañana.
+No hay alarmas
+¿Eliminar la alarma? Las restricciones activas requieren completar la tarea o una liberación de emergencia.
+Reto para despertar
+Diez flexiones
+Tu reto sigue pendiente
+Iniciar reto
+Han pasado cinco minutos; aún puedes completar la tarea
+Un nuevo día te espera
+Salir no completa la tarea ni libera las restricciones.
+Probar el reto con cámara
+Es una práctica: no afecta al historial ni a las restricciones.
+Pendiente
+En curso
+Completado a tiempo
+Completado tarde
+Sin completar
+Liberación de emergencia
+¡Diez flexiones en cinco minutos!
+Tarea completada tarde. Las restricciones cuyo horario no ha terminado siguen activas.
+Reto actual liberado. Se conservan las programaciones futuras.
+Coloca el teléfono de forma estable y muestra todo el cuerpo desde un ángulo frontal lateral. Una bajada y subida completas cuentan como una flexión.
+Cuerpo detectado. Baja y sube por completo.
+Sigue así
+Cámara interrumpida. Vuelve a Okiru para continuar.
+Recordatorios adicionales
+Recordatorios realmente programados
+Último recordatorio programado
+Descartar un aviso no completa la tarea. En primer plano hay indicaciones cada cinco segundos. En segundo plano se programan avisos limitados hasta tres horas después de la alarma original. La cantidad y cobertura dependen de la capacidad; les afectan el modo silencio y Concentración.
+Capacidad limitada. Arriba se muestran la cantidad real y el último aviso. Las alarmas principales tienen prioridad. Abre Okiru para actualizar la cobertura.
+Te esperan diez flexiones. Descartar esta notificación no completa la tarea.
+Restricciones de apps
+Hora de inicio
+Hora mínima de liberación
+Apps permitidas (%d)
+Restricciones activas
+Se requiere llegar a la hora de liberación Y completar la tarea asociada. Completar tarde también libera. Las restricciones superpuestas siguen siendo independientes. Puedes revocar el permiso en los ajustes del sistema.
+Selecciona solo apps individuales, hasta 50, como Spotify. No se admiten categorías ni sitios web como excepciones.
+Abre Okiru para completar el reto. Las restricciones terminan al llegar la hora y completar la tarea. También hay liberación de emergencia en Okiru.
+Mantén 3 segundos: liberación de emergencia
+¿Liberar las restricciones actuales?
+Motivo (opcional)
+Liberar ahora
+Se eliminan las restricciones y avisos de Okiru activos ahora. No cuenta como éxito. Se conservan las programaciones futuras.
+Permisos
+Permitido
+No permitido
+Alarmas del sistema
+Notificaciones
+Cámara
+Tiempo de uso
+Permitir alarmas y recordatorios
+Autorizar Tiempo de uso
+Okiru usa la cámara frontal para contar flexiones en este dispositivo. No guarda ni sube vídeos.
+Okiru programa las alarmas para despertar que creas.
+Despierta con diez flexiones.
+Completa la tarea en los cinco minutos posteriores a la primera alarma del día.
+Descartar un aviso no completa el reto.
+Las imágenes se procesan en tu teléfono. No se guardan ni suben vídeos.
+Si te encuentras mal, falla la cámara o hay una urgencia, mantén tres segundos la liberación de emergencia y confirma. Se registra por separado del éxito.
+Alarma del sistema (iOS 26+). Los avisos adicionales dependen de los ajustes de notificaciones y Concentración.
+Avisos por notificación (iOS 17/18). Silencio, Concentración y ajustes afectan al sonido; no se garantiza que suene continuamente.
+iOS 17/18 usa notificaciones locales como alarma principal; no garantiza superar silencio ni Concentración. iOS 26+ usa AlarmKit, que puede superarlos con autorización, pero el sistema conserva un botón de parada. En todas las versiones, los avisos adicionales son limitados y locales, sin heredar todas las capacidades de AlarmKit. La cámara solo funciona con Okiru abierto. El permiso de Tiempo de uso se puede revocar. No se garantiza un aviso cada cinco segundos en segundo plano ni un bloqueo imposible de eludir. Consulta la cantidad real y el último aviso en Alarma.
+Enviar comentarios
+Categoría
+Problema
+Sugerencia
+Otro
+Resumen (hasta 160 caracteres)
+Detalles (hasta 4.000 caracteres)
+Email de respuesta (opcional)
+Enviar comentarios
+¡Comentarios recibidos, gracias!
+Se envía el formulario, email opcional, versiones de la app y del sistema e idioma. No se incluyen imágenes ni historial de alarmas. Si falla, se conserva el borrador en el dispositivo.
+El servicio aún no está desplegado. El borrador se conserva en el dispositivo.
+Escribe un resumen y detalles dentro de los límites.
+Espera 20 segundos entre envíos.
+El servidor no confirmó la recepción. Se conserva el borrador; inténtalo otra vez.
+Podrás dejar una reseña cuando Okiru esté publicado en App Store.
+Okiru no exige cuenta ni incluye anuncios o seguimiento. Alarmas, recuentos e historial quedan en el dispositivo. La cámara detecta articulaciones localmente, sin guardar ni subir vídeos. La selección de apps usa tokens opacos de Apple. Si envías comentarios, el texto, email opcional, versiones e idioma se envían al Google Apps Script y Google Sheets exclusivos del desarrollador, sin imágenes ni historial. Puedes borrar registros terminados o restablecer Okiru en Ajustes. Revocar permisos impide la función correspondiente. Antes de publicar faltan las URL oficiales de privacidad y soporte.
+Probar notificación en 5 segundos
+Prueba programada para dentro de cinco segundos. No crea un registro de despertar.
+Prueba notificaciones, no la fiabilidad de AlarmKit con la pantalla bloqueada. Se requieren pruebas nocturnas en un iPhone real.
+Almacenamiento compartido no disponible. La versión firmada necesita un App Group de Okiru registrado.
+No se pudo leer o guardar. Los cambios no están confirmados.
+Tiempo de uso no está autorizado o se revocó. No se confirman las restricciones.
+La restricción debe durar al menos 15 minutos y menos de 24 horas.
+Permite las alarmas en los ajustes del sistema antes de activarla.
+Notificaciones no permitidas. No se pueden programar avisos adicionales. Revisa Ajustes.
+Falta capacidad para las alarmas principales. Reduce las programaciones activas.
+El sistema no conservó todos los avisos. Programación no confirmada.
+Hora o días de la semana no válidos.
+Elige una fecha futura para la alarma de una vez.
+La recuperación requiere atención. Revisa los permisos y vuelve a abrir Okiru antes de confiar en las alarmas.
+Permite la cámara en Ajustes para contar flexiones.
+Cámara frontal no disponible. Usa un iPhone real o la liberación de emergencia.
+No se pudo cargar el sonido.
+Amanecer
+Campanas
+Marimba
+Pulso
+Órbita
+Marea
+Detener
+Se alcanzó el límite de alarmas del sistema. Okiru eliminó horarios antiguos; vuelve a guardar.

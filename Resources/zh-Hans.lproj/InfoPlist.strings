@@ -1,0 +1,2 @@
+"NSCameraUsageDescription" = "Okiru 使用前置摄像头在本机识别俯卧撑次数，不保存或上传视频。";
+"NSAlarmKitUsageDescription" = "Okiru 会排定你创建的起床闹钟。";

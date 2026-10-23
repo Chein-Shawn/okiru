@@ -1,0 +1,5 @@
+// Copy to Local.xcconfig and configure the actual Apple Developer team.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+// Register these identifiers in that team before using a real device.
+OKIRU_BUNDLE_PREFIX = com.shawn.okiru
+OKIRU_APP_GROUP = group.com.shawn.okiru
