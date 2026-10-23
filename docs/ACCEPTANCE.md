@@ -1,5 +1,7 @@
 # 驗收與證據
 
+2026-10-23 Build 18 限制修復待真機複測：Build 16 已安裝於 iPhone 13；使用者確認主鬧鐘有聲，按「停止／開啟」會立即進入任務。當晚 06:30 鬧鐘設定於前一天 18:00 開始限制，21:00 卻沒有任何 App 被遮罩。手機唯讀資料顯示鬧鐘與限制開關均已保存，但 10/24 的事件在 18:53 被取消，之後重新啟用時未恢復。Build 17 在手機資料中已恢復該未來事件，但 App Group 未見 `restrictions-v1.json`，因此**不能宣稱限制已修復**。Build 18 改正共享檔寫入協調選項，並新增寫後讀回驗證；39 項核心測試與簽署 iPhoneOS 建置通過。iPhone 暫列 unavailable，Build 18 尚未安裝；須驗證共享檔、Home「限制中」及實際第三方 App 遮罩。
+
 2026-10-05 Build 10 開發驗證：使用者提供的 Build 9 試做 JSON 記錄 590 個樣本、只計入 1 下；分析顯示舊計數器在第一次下壓後，大多卡在原始上位基準的回升條件。Build 10 改為以每一下的最低點計算肩膀回升，並以該份數值離線重播得到 10 下。36 項核心測試、iOS Simulator 完整編譯及簽署 iPhoneOS build 均通過。iPhone 13 目前被 Xcode 列為 unavailable，因此 Build 10 尚未安裝及取得新一輪真人結果。新增字串的英文與繁中已更新；其他語言使用英文回退，母語審校仍阻擋送審。
 
 2026-10-04 Build 9 開發驗證：32 項核心測試與 iOS Simulator 編譯已通過，簽署的 Debug build 已安裝到 iPhone 13 並能啟動。iOS 27 模擬器 UI 測試進入 Testing 階段後超過 11 分鐘無案例結果，已停止；不能列為通過。尚無使用者完成十下、JSON 匯出、Safari 遮罩或在背景自動解除限制的觀察結果；這些不可列為通過。
@@ -26,7 +28,7 @@
 
 ## 2026-09-22 上架環境盤點
 
-- GitHub 私有儲存庫已推送初版 `b2dffc9`，分支 `codex/okiru-initial`。
+- 初版曾推送至私有 GitHub。2026-10-23 已將完整舊歷史保留於私有 `Chein-Shawn/okiru-private-archive`，另以乾淨單一提交建立公開、source-available 的 `Chein-Shawn/okiru`；不能將舊私有提交當成公開庫歷史。
 - Apple Developer Team `3NFD3KU8Q8` 已確認；本機 `Config/Local.xcconfig` 已設定該 Team ID（檔案不進 Git）。
 - 已在 Apple Developer 登記主 App、三個擴充套件與共享群組，並將四個 App ID 都關聯 `group.com.shawn.okiru`：
   - `com.shawn.okiru`

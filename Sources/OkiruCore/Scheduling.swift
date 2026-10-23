@@ -58,6 +58,32 @@ public enum AlarmDeactivation {
     }
 }
 
+/// Re-enabling an alarm restores only future occurrences cancelled by an
+/// earlier deactivation. A fired or completed occurrence remains historical.
+public enum AlarmReactivation {
+    @discardableResult public static func restoreFuture(
+        definitions: [AlarmDefinition],
+        occurrences: inout [AlarmOccurrence],
+        at now: Date,
+        calendar: Calendar = .current
+    ) -> Set<String> {
+        var enabled: [UUID:AlarmDefinition] = [:]
+        for alarm in definitions where alarm.enabled { enabled[alarm.id] = alarm }
+        var restored: Set<String> = []
+        occurrences.removeAll { event in
+            guard event.scheduledAt > now,
+                  let cancelledAt = event.cancelledAt,
+                  let alarm = enabled[event.alarm.id],
+                  alarm.effectiveFrom > cancelledAt,
+                  ScheduleCalculator.dates(for:alarm,from:now,through:event.scheduledAt,calendar:calendar).contains(event.scheduledAt)
+            else { return false }
+            restored.insert(event.id)
+            return true
+        }
+        return restored
+    }
+}
+
 /// The task to show whenever Okiru becomes visible. The result is independent
 /// of how the app was opened (icon, notification, or AlarmKit intent).
 public enum WakeTaskPolicy {

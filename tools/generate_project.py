@@ -116,7 +116,7 @@ def generate_project():
         targets[name] = obj('target:'+name, isa='PBXNativeTarget', buildConfigurationList=configlist, buildPhases=phase_ids, buildRules=[], dependencies=[], name=name, productName=name, productReference=products[name], productType='com.apple.product-type.application' if is_app else 'com.apple.product-type.app-extension', packageProductDependencies=[dep])
         info = {'CFBundleDevelopmentRegion':'en','CFBundleExecutable':'$(EXECUTABLE_NAME)','CFBundleIdentifier':'$(PRODUCT_BUNDLE_IDENTIFIER)',
                 'CFBundleInfoDictionaryVersion':'6.0','CFBundleName':'Okiru' if is_app else name,'CFBundlePackageType':'APPL' if is_app else 'XPC!',
-                'CFBundleShortVersionString':'1.0.0','CFBundleVersion':'16','OkiruAppGroup':'$(OKIRU_APP_GROUP)'}
+                'CFBundleShortVersionString':'1.0.0','CFBundleVersion':'18','OkiruAppGroup':'$(OKIRU_APP_GROUP)'}
         if is_app:
             info.update({'LSRequiresIPhoneOS':True,'UILaunchScreen':{},'UIApplicationSceneManifest':{'UIApplicationSupportsMultipleScenes':False},
                          'ITSAppUsesNonExemptEncryption':False,

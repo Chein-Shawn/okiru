@@ -331,6 +331,40 @@ final class CoreTests: XCTestCase {
         XCTAssertFalse(RestrictionWindow(occurrence:savedCompletion,calendar:calendar).isActive(at:epoch.addingTimeInterval(31)))
         XCTAssertFalse(ReminderPlanner.plan(occurrences:events,now:epoch.addingTimeInterval(31),primaryCount:0).reminders.isEmpty)
     }
+    func testReenablingAlarmRestoresCancelledFutureOvernightRestriction() {
+        let scheduled = calendar.date(from:DateComponents(year:2026,month:10,day:24,hour:6,minute:30))!
+        let cancelledAt = calendar.date(from:DateComponents(year:2026,month:10,day:23,hour:18,minute:53))!
+        let reopenedAt = calendar.date(from:DateComponents(year:2026,month:10,day:23,hour:21))!
+        var alarm = AlarmDefinition(createdAt:cancelledAt.addingTimeInterval(-86400),hour:6,minute:30,weekdays:[7])
+        alarm.restriction.enabled = true
+        alarm.restriction.startMinute = 18 * 60
+        var occurrences = [AlarmOccurrence(alarm:alarm,scheduledAt:scheduled,calendar:calendar)]
+        XCTAssertTrue(RestrictionWindow(occurrence:occurrences[0],calendar:calendar).isActive(at:cancelledAt))
+        AlarmDeactivation.apply(alarmID:alarm.id,to:&occurrences,at:cancelledAt)
+        XCTAssertEqual(occurrences.first?.cancelledAt,cancelledAt)
+        alarm.enabled = false
+        XCTAssertTrue(AlarmReactivation.restoreFuture(definitions:[alarm],occurrences:&occurrences,at:reopenedAt,calendar:calendar).isEmpty)
+        alarm.enabled = true
+        alarm.effectiveFrom = reopenedAt
+        XCTAssertEqual(AlarmReactivation.restoreFuture(definitions:[alarm],occurrences:&occurrences,at:reopenedAt,calendar:calendar),Set(["\(alarm.id.uuidString).\(Int(scheduled.timeIntervalSince1970))"]))
+        XCTAssertTrue(occurrences.isEmpty)
+        let restored = ScheduleCalculator.dates(for:alarm,from:reopenedAt,through:scheduled,calendar:calendar)
+        XCTAssertEqual(restored,[scheduled])
+        XCTAssertTrue(RestrictionWindow(occurrence:AlarmOccurrence(alarm:alarm,scheduledAt:scheduled,calendar:calendar),calendar:calendar).isActive(at:reopenedAt))
+    }
+    func testReactivationNeverRewritesPastOrMismatchedSchedule() {
+        let now = epoch
+        var alarm = AlarmDefinition(createdAt:now.addingTimeInterval(-86400),weekdays:[],oneShotDate:now.addingTimeInterval(2*86400))
+        alarm.effectiveFrom = now
+        var past = AlarmOccurrence(alarm:alarm,scheduledAt:now.addingTimeInterval(-3600),calendar:calendar)
+        past.cancelledAt = now.addingTimeInterval(-7200)
+        var future = AlarmOccurrence(alarm:alarm,scheduledAt:now.addingTimeInterval(86400),calendar:calendar)
+        future.cancelledAt = now.addingTimeInterval(-7200)
+        let original = [past,future]
+        var occurrences = original
+        XCTAssertTrue(AlarmReactivation.restoreFuture(definitions:[alarm],occurrences:&occurrences,at:now,calendar:calendar).isEmpty)
+        XCTAssertEqual(occurrences,original)
+    }
     func testWakeTaskPolicyUsesOldestUnfinishedRegardlessOfLaunchSource() {
         let older = event(-300), newer = event(-30), future = event(60)
         XCTAssertEqual(WakeTaskPolicy.firstUnfinished([newer,future,older],at:epoch)?.id,older.id)

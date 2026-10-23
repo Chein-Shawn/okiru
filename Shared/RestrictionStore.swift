@@ -38,7 +38,7 @@ enum SharedRestrictionStore {
         let url = try location()
         var coordinationError: NSError?
         var result: Result<SharedRestrictionState,Error>?
-        NSFileCoordinator().coordinate(writingItemAt: url, options: .forMerging, error: &coordinationError) { coordinatedURL in
+        NSFileCoordinator().coordinate(writingItemAt: url, options: [], error: &coordinationError) { coordinatedURL in
             result = Result {
                 var state: SharedRestrictionState
                 if FileManager.default.fileExists(atPath:coordinatedURL.path) {
@@ -51,7 +51,10 @@ enum SharedRestrictionStore {
         }
         if let coordinationError { throw coordinationError }
         guard let result else { throw DisplayError(key:"error.storage") }
-        return try result.get()
+        _ = try result.get()
+        // The caller must not report a successful restriction update unless
+        // the coordinated write is actually visible to other processes.
+        return try JSONDecoder().decode(SharedRestrictionState.self,from:Data(contentsOf:url))
     }
     static func read() throws -> SharedRestrictionState {
         let url = try location()

@@ -43,7 +43,15 @@ import OkiruCore
             }
             for event in occurrences where event.alarm.restriction.enabled {
                 if let i = shared.occurrences.firstIndex(where: { $0.id == event.id }) {
-                    if shared.occurrences[i].cancelledAt != nil && event.cancelledAt == nil { continue }
+                    if let cancelledAt = shared.occurrences[i].cancelledAt, event.cancelledAt == nil {
+                        // A later explicit re-enable may reuse the same stable
+                        // occurrence ID. Do not let the old cancellation keep
+                        // tomorrow's restriction permanently resolved.
+                        let reenabled = event.scheduledAt > now && definitions.contains {
+                            $0.id == event.alarm.id && $0.enabled && $0.effectiveFrom > cancelledAt
+                        }
+                        if !reenabled { continue }
+                    }
                     if shared.occurrences[i].restrictionCancelledAt != nil && event.restrictionCancelledAt == nil { continue }
                     if shared.occurrences[i].emergencyAt != nil && event.emergencyAt == nil { continue }
                     if shared.occurrences[i].restrictionEmergencyAt != nil && event.restrictionEmergencyAt == nil { continue }

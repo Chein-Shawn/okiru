@@ -76,6 +76,11 @@ struct ChallengeRoute: Identifiable {
         // Recalculate unstarted future events in the current time zone. Preserve
         // past snapshots, terminal events and restrictions that already started.
         snapshot.occurrences.removeAll { $0.scheduledAt > now && !$0.resolved && !($0.alarm.restriction.enabled && RestrictionWindow(occurrence:$0).isActive(at:now)) }
+        // A cancelled future event can retain an already-started restriction
+        // snapshot. If that alarm was subsequently re-enabled, replace only
+        // that future cancellation so its schedule and restriction can resume.
+        let restored = AlarmReactivation.restoreFuture(definitions:snapshot.alarms,occurrences:&snapshot.occurrences,at:now)
+        if !restored.isEmpty { snapshot.events.removeAll { restored.contains($0.occurrenceID) } }
         var known = Set(snapshot.occurrences.map(\.id)).union(snapshot.clearedOccurrenceIDs ?? [])
         for alarm in snapshot.alarms {
             for date in ScheduleCalculator.dates(for:alarm,from:start,through:now.addingTimeInterval(14*86400)) {
