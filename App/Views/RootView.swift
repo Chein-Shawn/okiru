@@ -27,7 +27,7 @@ struct RootView: View {
                 model.requiresPermissionSetup = false
             }.environmentObject(model).interactiveDismissDisabled()
         }
-        .alert(tr("attention"),isPresented:Binding(get:{ model.errorMessage != nil },set:{ if !$0 { model.errorMessage = nil } })) {
+        .alert(tr("attention"),isPresented:Binding(get:{ model.challenge == nil && model.errorMessage != nil },set:{ if !$0 { model.errorMessage = nil } })) {
             Button(tr("ok"),role:.cancel) { model.errorMessage = nil }
         } message: { Text(model.errorMessage ?? "") }
         .safeAreaInset(edge:.top) {

@@ -66,7 +66,7 @@ struct ChallengeView: View {
             case .failure(let error): exportError = error.localizedDescription
             }
         }
-        .alert(tr("attention"),isPresented:Binding(get:{ model.errorMessage != nil },set:{ if !$0 { model.errorMessage = nil } })) {
+        .alert(tr("attention"),isPresented:Binding(get:{ model.challenge != nil && model.errorMessage != nil },set:{ if !$0 { model.errorMessage = nil } })) {
             Button(tr("ok"),role:.cancel) { model.errorMessage = nil }
         } message: { Text(model.errorMessage ?? "") }
     }
@@ -100,6 +100,9 @@ struct ChallengeView: View {
                     finishPractice(reason:camera.count >= 10 ? "completed" : "exited")
                 }.buttonStyle(.borderedProminent)
             } else { EmergencyButton() }
+            if !practice, let warning = model.report.warning {
+                Text(warning).font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
+            }
             Text(tr("challenge.leaveNote")).font(.caption).foregroundStyle(.secondary).multilineTextAlignment(.center)
         }
     }
@@ -281,11 +284,20 @@ struct EmergencyButton: View {
             : label
     }
     var body: some View {
+        VStack(spacing:8) {
         Text(holdLabel).font(.subheadline.bold()).frame(maxWidth:.infinity).padding()
             .background(pressing ? Color.red.opacity(0.3) : Color.red.opacity(0.08),in:RoundedRectangle(cornerRadius:14))
             .foregroundStyle(.red)
             .onLongPressGesture(minimumDuration:holdDuration,perform:{ confirm = true },onPressingChanged:{ pressing = $0 })
             .accessibilityAddTraits(.isButton)
+        // A system AlarmKit alert can interrupt a 30-second touch. Emergency
+        // release must always remain reachable, so provide a tap-and-confirm
+        // safety route independent of uninterrupted gesture recognition.
+        if hasActiveRestriction {
+            Button(tr("emergency.title"),role:.destructive) { confirm = true }
+                .font(.footnote)
+        }
+        }
             .alert(tr("emergency.title"),isPresented:$confirm) {
                 TextField(tr("emergency.reason"),text:$reason)
                 Button(tr("cancel"),role:.cancel) {}

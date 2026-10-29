@@ -1,6 +1,18 @@
 import XCTest
 
 final class NavigationTests: XCTestCase {
+    @MainActor func testSchedulingVerificationFailureDoesNotDismissChallenge() {
+        let app = XCUIApplication()
+        app.launchEnvironment["OKIRU_UI_TEST_DUE_WAKE"] = "1"
+        app.launchEnvironment["OKIRU_UI_TEST_SCHEDULING_FAILURE"] = "1"
+        app.launchArguments = ["-language","en","-permissionSetupVersion","2"]
+        app.launch()
+        XCTAssertTrue(app.navigationBars["Wake-up challenge"].waitForExistence(timeout:20))
+        XCTAssertFalse(app.alerts["Attention"].exists)
+        XCTAssertTrue(app.staticTexts["The system did not retain all requested alerts. This schedule is not confirmed."].waitForExistence(timeout:10))
+        XCTAssertTrue(app.navigationBars["Wake-up challenge"].exists)
+    }
+
     @MainActor func testIconLaunchAndForegroundResumeRouteUnfinishedWake() {
         let app = XCUIApplication()
         app.launchEnvironment["OKIRU_UI_TEST_DUE_WAKE"] = "1"

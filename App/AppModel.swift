@@ -128,10 +128,26 @@ struct ChallengeRoute: Identifiable {
             // Alarm synchronization must still continue independently.
             requiresPermissionSetup = true
         } catch { errorMessage = error.localizedDescription }
-        do { report = try await scheduler.synchronize(alarms:alarms,occurrences:occurrences) }
+        do {
+#if DEBUG
+            if ProcessInfo.processInfo.environment["OKIRU_UI_TEST_SCHEDULING_FAILURE"] == "1" {
+                throw DisplayError(key:"error.scheduleVerification")
+            }
+#endif
+            report = try await scheduler.synchronize(alarms:alarms,occurrences:occurrences)
+        }
         catch let error as DisplayError where ["error.alarmPermission","error.notificationPermission","error.notificationSounds"].contains(error.key) {
             requiresPermissionSetup = true
-        } catch { errorMessage = error.localizedDescription }
+        } catch {
+            // Follow-up capacity/verification can change while AlarmKit is
+            // presenting another alert. Never present a modal over the camera
+            // challenge: it can tear down the full-screen route and prevents
+            // a long-press emergency release. The wake task remains pending.
+            if challenge != nil || !activeWindows.isEmpty || !pending.isEmpty {
+                report.warning = error.localizedDescription
+            }
+            else { errorMessage = error.localizedDescription }
+        }
         // A repairable scheduling/permission failure must not prevent opening an
         // already persisted task from its notification or AlarmKit action.
         routeRequestedAlarm()
